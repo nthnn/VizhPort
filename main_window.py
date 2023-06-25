@@ -1,8 +1,9 @@
 import serial.tools.list_ports
 
 from PyQt5 import QtWidgets, QtCore, QtGui
-from PyQt5.QtWidgets import QApplication, QMainWindow, QComboBox, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLabel, QMessageBox
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication, QMainWindow, QComboBox, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLabel, QMessageBox
 
 from pyqtgraph import PlotWidget, mkPen
 from serial_data_receiver import SerialDataReceiver
@@ -14,6 +15,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("VizhPort")
         self.setGeometry(0, 0, 500, 500)
         self.center_window()
+        self.setWindowIcon(QIcon("assets/vizhport.ico"))
 
         self.serial_ports = []
         self.baud_rates = ["300", "1200", "2400", "4800", "9600", "14400", "19200", "38400", "57600", "115200"]
