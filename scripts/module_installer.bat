@@ -1,2 +1,2 @@
-python -m pip install pyqt5 pyqtgraph pyserial pyinstaller
+py -m pip install pyqt5 pyqtgraph pyserial pyinstaller
 pause
