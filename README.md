@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/vizhport.png" width="300px" />
+    <img src="assets/vizhport.png" width="120px" />
 </p>
 
 # VizhPort
@@ -45,7 +45,17 @@ Upon launching VizhPort, you will be presented with a user-friendly interface to
 
 ## Screenshots
 
+VizhPort demonstration with the export tool window.
 
+<p align="center">
+    <img src="assets/screenshot-1.png" width="350" />
+</p>
+
+VizhPort on launch.
+
+<p align="center">
+    <img src="assets/screenshot-2.png" width="350" />
+</p>
 
 ## License
 
