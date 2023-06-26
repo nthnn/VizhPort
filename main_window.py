@@ -18,7 +18,10 @@ class MainWindow(QMainWindow):
         self.setWindowIcon(QIcon("assets/vizhport.ico"))
 
         self.serial_ports = []
-        self.baud_rates = ["300", "1200", "2400", "4800", "9600", "14400", "19200", "38400", "57600", "115200"]
+        self.baud_rates = ["300", "600", "750", "1200", "2400",
+            "4800", "9600", "14400", "19200", "31250", "38400",
+            "57600", "74880", "115200", "230400", "250000",
+            "460800", "500000", "921600", "1000000", "2000000"]
 
         self.port_label = QLabel("Serial Ports")
         self.port_dropdown = QComboBox()
