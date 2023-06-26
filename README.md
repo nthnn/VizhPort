@@ -57,6 +57,20 @@ VizhPort on launch.
     <img src="assets/screenshot-2.png" width="350" />
 </p>
 
+## Why VizhPort?
+
+First and foremost, in the realm of firmware development, efficient serial port monitoring is essential for ensuring the smooth functioning and debugging of devices such as Espressif and Arduino boards. Recognizing this need, this Python program called VizhPort has been developed, offering a comprehensive solution for monitoring serial ports with a visually appealing display powered by pygtgraph.
+
+VizhPort caters to the diverse needs of firmware developers by providing a wide selection of baud rates. Whether you're working with a low-speed communication protocol or a high-speed data transfer, VizhPort can adapt to your specific requirements. Moreover, the program allows users to choose from a range of available ports, facilitating seamless connectivity and enabling efficient monitoring across different devices.
+
+One of the standout features of VizhPort is its usage of pygtgraph, a powerful graphing library in Python. This integration empowers users with a host of visualization options, enhancing the understanding and analysis of the monitored data. Users can effortlessly show or hide grids, adjust the visibility of X and Y axis, and apply various transformations to the displayed data. This level of customization ensures that users can focus on the specific aspects of the serial data that are crucial for their firmware development process.
+
+Moreover, VizhPort recognizes that serial data can often be overwhelming due to its high volume. To address this challenge, the program incorporates downsampling techniques, which reduce the data points while preserving important trends and patterns. By providing a streamlined representation of the data, VizhPort allows firmware developers to efficiently analyze the monitored serial data without being overwhelmed by unnecessary details. Additionally, the ability to transform the data further enriches the analysis process, enabling users to identify hidden correlations and make informed decisions based on their findings.
+
+To foster collaboration and enable further analysis, VizhPort offers multiple options for importing recorded data. Users can seamlessly import data in CSV format, facilitating integration with other data analysis tools. Moreover, the program provides the flexibility to export the monitored data as image files (PNG, JPG, or SVG), enabling easy sharing and documentation of findings. Additionally, VizhPort allows users to open the recorded data in a matplotlib window, further expanding the range of analytical possibilities and catering to individual preferences.
+
+VizhPort is specifically designed with Arduino firmware developers in mind. The program's intuitive interface and extensive feature set cater to the unique challenges and requirements of working with Arduino boards. By providing a comprehensive monitoring and analysis tool, VizhPort empowers firmware developers to efficiently debug, fine-tune, and optimize their Arduino-based projects, ultimately leading to improved firmware performance and a streamlined development process.
+
 ## License
 
 Copyright 2023 - Nathanne Isip
