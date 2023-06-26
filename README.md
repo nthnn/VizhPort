@@ -48,7 +48,7 @@ Upon launching VizhPort, you will be presented with a user-friendly interface to
 VizhPort demonstration with the export tool window.
 
 <p align="center">
-    <img src="assets/screenshot-1.png" width="350" />
+    <img src="assets/screenshot-1.png" width="500" />
 </p>
 
 VizhPort on launch.
